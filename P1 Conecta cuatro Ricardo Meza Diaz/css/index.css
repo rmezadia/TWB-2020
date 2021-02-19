@@ -1,0 +1,84 @@
+
+/* Configura las cabeceres */
+h1,h3{
+
+	text-align: center;
+
+}
+/*Configura los 2 divs de la portada para la foto.*/
+#div1Portada{
+    width: 100%;
+}
+
+#div2Portada{
+  
+
+}
+/*Configuración que ajusta la imagen banner al principio de la pagina*/
+.banner{
+
+    color: white;
+    /*background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/banner-flowers.jpg') top left/cover no-repeat;*/
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+/* Configura el menu */
+.navbar-nav {
+
+    display: -ms-flexbox;
+    display: flex;
+    /*-ms-flex-direction: column */
+    flex-direction: row; /* En column poen el menu en formato columna */
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+
+}
+/* Configura las dimensiones del formulario para registrarse*/
+
+
+
+
+
+h1,h3{
+
+    text-align: center;
+}
+/* Configura las label a */
+a{
+	font-size: 22px;
+}
+
+/* Configura las listas del menu*/
+li{
+
+	display: auto;
+	padding-right: 0.5px;
+}
+
+/* Configura el footer */
+ul{
+
+	text-align: center;
+
+}
+
+/* Configura imagenes */
+img{
+   padding-left: 0.05%;
+   padding-right: 0.05%;
+   align-content: center;
+   align-items: center;
+
+}
+
+/* Configura los contenedores DIV */
+div{
+    align-items: center;
+	text-align: center;
+    align-content: center;
+
+}
